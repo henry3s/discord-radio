@@ -17,3 +17,4 @@ refer to https://discord.com/developers/docs/getting-started for how to set up a
 
 change <PATH/TO/MP3> and <YOUR TOKEN ID> to their respective inputs.
 
+add PELNA bot to your server! an example of this in action https://discord.com/api/oauth2/authorize?client_id=1100961549792858192&permissions=8&scope=bot
