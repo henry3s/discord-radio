@@ -1,6 +1,7 @@
 # discord-radio
 a discord bot for streaming constant mp3 files through ffmpeg
-
+can work in multiple servers at once, follows admin when initially joining a server, then stores 
+the channel/server id in a json file to automatically reconnect on script updates (adding new files etc)
 PREREQUISITES
 
 discord.py, asyncio, ffmpeg 
@@ -15,5 +16,6 @@ SETUP
 
 refer to https://discord.com/developers/docs/getting-started for how to set up a bot
 
-change <PATH/TO/MP3> and <YOUR TOKEN ID> to their respective inputs.
+change <AUDIO1> and <YOUR TOKEN ID> to their respective inputs.
 
+you will need to run on a server, i recommend using screen to keep the script running 24/7.
