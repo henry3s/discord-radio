@@ -4,10 +4,10 @@ can work in multiple servers at once, follows admin when initially joining a ser
 the channel/server id in a json file to automatically reconnect on script updates (adding new files etc)
 PREREQUISITES
 
-pycord, asyncio, ffmpeg 
+discord.py, pycord, asyncio, ffmpeg 
 
 ```
-pip install pycord asyncio ffmpeg 
+pip install pycord asyncio ffmpeg discord.py
 ```
 
 you may already have them from installing python / other projects 
